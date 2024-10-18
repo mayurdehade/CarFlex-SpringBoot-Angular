@@ -5,11 +5,10 @@ import com.mayur.dtos.SearchCarDto;
 import com.mayur.services.admin.AdminService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.RequestEntity;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.smartcardio.Card;
 import java.io.IOException;
 import java.util.List;
 
